@@ -9,7 +9,9 @@
     "react-dom": "^16.4.2",
     "react-native": "^0.52.3",
     "react-native-web": "^0.8.9",
-    "react-scripts": "1.1.5"
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.5",
+    "redux": "^4.0.0"
   },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
@@ -28,6 +30,7 @@
     "preset": "jest-expo"
   },
   "devDependencies": {
+    "babel-plugin-react-native-web": "^0.8.9",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-plugin-transform-react-jsx-source": "^6.22.0",
     "babel-preset-expo": "^4.0.0",
